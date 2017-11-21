@@ -51,6 +51,6 @@ class Action {
         this.url = url;
     }
     public String getInfo() {
-        return "权限编号：" + this.aid + ", 权限名称：" + this.title + ", 权限路劲：" + this.url;
+        return "权限编号：" + this.aid + ", 权限名称：" + this.title + ", 权限路径：" + this.url;
     }
 }
